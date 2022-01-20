@@ -26,3 +26,31 @@ body {
     font-size: 4rem;
   }
   /* My CSS */
+  /* optional */
+  /* body {
+    background: url('../grid-flex-assignment.png') 3px 19px no-repeat;
+} */
+
+.emojis{
+    display: grid;
+    grid-template-columns: repeat(2, 417px);
+    /* grid-template-rows: 302px 338px; */
+    gap: 16px;
+}
+.emoji{
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    order: -1;
+    align-self: center;
+}
+
+.emoji a{
+    order: -1
+    align-self: center;
+}
+
+.emoji p{
+    flex-grow: 1;
+}
